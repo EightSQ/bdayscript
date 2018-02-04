@@ -10,7 +10,7 @@ bdays_today=$(cat $bday_tables | sed -e "/^$/d" | cut -d";" -f1,2,3 | grep ";$to
 
 if [ $bdays_today ]
 then
-	echo "Heute sind Geburtstage! 🎉"
+	echo "Heute ist ein toller Tag! 🎉"
 	for child in $bdays_today
 	do
 		echo "$(echo $child | cut -d";" -f2) $(echo $child | cut -d";" -f1)"

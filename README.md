@@ -13,7 +13,7 @@ The corresponding `.csv` files should be placed inside the `~/.bdayscript/` dire
 Surname;Name;M(M)/D(D)/YY
 Doe;John;12/24/85
 ```
-4. To do that insert a call to the script sinside your `.bashrc` or `.zshrc` file.
+4. Insert a call to the script sinside your `.bashrc` or `.zshrc` file. Alternatively you can also create a similar cronjob.
 ```bash
 bash ~/scripts/bdayscript.sh
 ```
