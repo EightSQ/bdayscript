@@ -8,7 +8,7 @@ today=$(date +"%m/%d" | sed -e "s/^0//g" -e "s/\/0/\//g")
 
 bdays_today=$(cat $bday_tables | sed -e "/^$/d" | cut -d";" -f1,2,3 | grep ";$today")
 
-if [ $bdays_today ]
+if [ ! -z "$bdays_today" ]
 then
 	echo "Heute ist ein toller Tag! 🎉"
 	for child in $bdays_today
