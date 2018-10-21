@@ -20,8 +20,8 @@ bash ~/scripts/bdayscript.sh
 5. Never forget a birthday again. 
 
 ## To-Do
-- [] Create a setup agent to manage birthdays in the database.
-- [] Add multi-language support.
+- [ ] Create a setup agent to manage birthdays in the database.
+- [ ] Add multi-language support.
 
 ## Authors
 - EightSQ - *all by himself* - https://electronvo.lt
